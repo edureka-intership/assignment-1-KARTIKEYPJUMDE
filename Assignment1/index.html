@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="kartikey-p-jumde">
+    <title>Assignment-1(html+css)</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- navbar-area starts here-->
+    <nav>
+    <div class="navbar">
+     <div class="edureka_sign">
+        e!
+     </div>
+
+    <button class="login_button" type="button">Login</button>
+    <button class="Create_an_account" type="button">Create an account</button>
+
+    </div>
+    </nav>
+
+    <!-- navbar-area ends here-->
+
+    <!-- header area starts here-->
+    <header>
+        <h1>Breakfast Places in Mumbai</h1>
+    </header>
+
+    <!-- header area starts here-->
+
+    <!-- main-area starts here -->
+    <main>
+     <div class="main-area">
+
+        <!-- side-bar starts here  -->
+        <div class="side-bar">
+            <h3 style="font-weight:bold">Filters</h3>
+            <div> 
+               <h5>Select location</h5>
+               <select name="select_location" id="select_location" aria-placeholder="select-location">
+                <option value="Andheri_East">Andheri_East</option>
+                <option value="Andheri_West">Andheri_Wast</option>
+                <option value="Navi_Mumbai">Navi Mumbai</option>
+                <option value="Bandra">Bandra</option>
+                <option value="Near_goa">Near goa</option>
+               </select>
+            </div>
+            <div>
+                <h5>Cuisine</h5>
+                <input type="checkbox" id="north indian" name="north indian" value="north indian">
+                <label for="north indian">north indian</label><br>
+                <input type="checkbox" id="south indian" name="south indian" value="south indian">
+                <label for="north indian">south indian</label><br>
+                <input type="checkbox" id="chinese" name="chinese" value="chinese">
+                <label for="chinese">chinese</label><br>
+                <input type="checkbox" id="fast food" name="fast food" value="fast food">
+                <label for="fast food">fast food</label><br>
+                <input type="checkbox" id="street food" name="street food" value="street food">
+                <label for="street food">street food</label><br>
+            </div>
+            <div>
+                <h5>Cost for two</h5>
+                <input type="radio" id="less then 500" name="Cost" value="less then 500">
+                <label for="less then 500">less then 500</label><br>
+                <input type="radio" id="500 - 1000" name="Cost" value="500 - 1000">
+                <label for="500 - 1000">500 to 1000</label><br>
+                <input type="radio" id="1000 - 1500" name="Cost" value="1000 - 1500">
+                <label for="1000 - 1500">1000 to 1500</label><br>
+                <input type="radio" id="1500 - 2000" name="Cost" value="1500 - 2000">
+                <label for="1500 - 2000">1500 to 2000</label><br>
+                <input type="radio" id="2000+" name="Cost" value="2000+">
+                <label for="2000+">2000+</label><br>
+            </div>
+            <div>
+                <h3>Sort</h3>
+                
+                <input type="radio" id="Price low to high" name="Sort" value="Price low to high">
+                <label for="Price low to high">Price low to high</label><br>
+                <input type="radio" id="Price high to low" name="Sort" value="Price high to low">
+                <label for="Price high to low">Price high to low</label><br>
+            
+            </div>
+
+        </div>
+        <!-- side-bar ends here  -->
+
+        <!-- main-bar starts here  -->
+        <div class="main-bar">
+            <div class="food_block_1">
+                <div class="food_block1_part1">
+                   <img  src="Images/food1.png" title="happy-meal" alt="Image not found"  >
+                   <h2 class="bakery">The Big Chill Cakery</h2> 
+                   <p class="bakery">FORT</p> 
+                   <p class="bakery">shop1,plot D,Samruddhi complex,Chincholi...</p>
+                </div>
+                <hr/>
+                <div class="food_block1_part2">
+                  <p class="pre_text">
+                  Cuisines:        Bakery <br><br>
+                 Cost for two:     &#8377 700 
+                  </p>
+                 </div>
+            </div>
+
+            <div class="food_block_2">
+                
+                <div class="food_block_2_par1">
+                    <img src="Images/food1.png" title="happy-meal" alt="Image not found" >
+                    <h2 class="bakery">The Big Chill Cakery</h2> 
+                    <p class="bakery">FORT</p> 
+                    <p class="bakery">shop1,plot D,Samruddhi complex,Chincholi...</p>
+                </div>
+                <hr/>
+                 <div class="food_block_2_par2"> 
+                 <p class="pre_text">
+                   Cuisines:         Bakery <br><br>
+                 Cost for two:     &#8377 700
+                 </p>
+                 </div> 
+            </div>
+
+        </div>
+        <!-- main-bar ends here  -->
+
+        
+     </div>
+
+     
+    </main>
+
+    <!-- main-area ends here -->
+
+    
+</body>
+
+<!-- footer-area starts here -->
+<footer >
+    <div id="footer">
+     <button class="page_change"><</button>
+     <button class="page_change">1</button>
+     <button class="page_change">2</button>
+     <button class="page_change">3</button>
+     <button class="page_change">4</button>
+     <button class="page_change">5</button>
+     <button class="page_change">></button>
+    </div>
+</footer>
+<!-- footer-area ends here -->
+
+</html>
